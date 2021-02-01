@@ -1,0 +1,111 @@
+div{
+    font-family: OpenSans-Regular;
+    font-size: 20px;
+}
+
+h1, h3{
+    font-family: OpenSans-Regular;
+}
+
+html{
+    display: grid;
+    padding-top: 10vh;
+}
+
+body {
+    margin: auto;
+}
+#priceDiv{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: max-content auto;
+    column-gap: 10px;
+}
+
+#priceDiv > label{
+    grid-column: 1;
+}
+
+#priceDiv > input{
+    grid-column: 2;
+}
+
+
+#ratingsContainer{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 10px;
+}
+
+#speedDiv{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#speedStars{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#politenessDiv{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#politenessStars{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#dressDiv{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#dressStars{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#communicationDiv{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+#communicationStars{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#presentationDiv{
+    grid-row: 5;
+    grid-column: 1;
+}
+
+#presentationStars{
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#resultsDiv{
+    padding: 20px;
+    margin: 0px;
+}
+
+/* Turns off the up / down arrows next to the number inputs in Chrome, Safari, Edge, and Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Turns off the up / down arrows next to the number inputs in Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+  }
