@@ -15,6 +15,9 @@ html{
 body {
     margin: auto;
 }
+i{
+    letter-spacing: 0.1em;
+}
 #priceDiv{
     padding: 20px;
     display: grid;
@@ -91,6 +94,10 @@ body {
 #resultsDiv{
     padding: 20px;
     margin: 0px;
+}
+
+.gold{
+    color: gold;
 }
 
 /* Turns off the up / down arrows next to the number inputs in Chrome, Safari, Edge, and Opera */
