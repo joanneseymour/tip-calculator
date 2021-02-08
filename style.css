@@ -21,7 +21,7 @@ i{
 #priceDiv{
     padding: 20px;
     display: grid;
-    grid-template-columns: max-content auto;
+    grid-template-columns: max-content auto auto;
     column-gap: 10px;
 }
 
